@@ -17,7 +17,7 @@ spec:
     - destination:
         port:
           number: 8000
-        host: httpdin
+        host: httpbin
   - match:
     - uri:
         prefix: /hello
